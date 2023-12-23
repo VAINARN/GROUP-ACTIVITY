@@ -7,28 +7,6 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <title>Profile</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-      html {
-        height: 100%;
-      }
-
-      body {
-        position: relative;
-        margin: 0;
-        min-height: 100%;
-        padding-bottom: 6.74rem;
-      }
-      
-      footer {
-        padding: 35px;
-        text-align: center;
-        position: absolute;
-        right: 0;
-        left: 0;
-        bottom: 0;
-  
-      }
-    </style>
     
   </head>
   <h1>Webpage<span class="lead">This is a lead paragraph. It stands out from regular paragraphs.</span></h1>
@@ -71,8 +49,67 @@
       </div>
     </nav>
     
-    <footer class="bg-dark py-4 mt-4">
-      <div class="container text-light text center">
+    <div class="container light-style flex-grow-1 container-p-y ">
+      <h4 class="font-weight-bold py-3 mb-4">
+          Profile Page
+      </h4>
+      
+              <div class="col-md-9">
+                  <div class="tab-content">
+                      <div class="tab-pane fade active show" id="account-general">
+                          <div class="card-body media align-items-center">
+                              <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt
+                                  class="d-block ui-w-80">
+                              <div class="media-body ml-4">
+                                  <label class="btn btn-outline-primary">
+                                      Upload new photo
+                                      <input type="file" class="account-settings-fileinput">
+                                  </label> &nbsp;
+                                  <button type="button" class="btn btn-default md-btn-flat">Reset</button>
+                                  <div class="text-light small mt-1">Allowed JPG, GIF or PNG. Max size of 800K</div>
+                              </div>
+                          </div>
+                          <hr class="border-light m-0">
+                          <div class="card-body">
+                              <div class="form-group">
+                                  <label class="form-label">Full Name</label>
+                                  <input type="text" class="form-control mb-1" >
+                              </div>
+                              <div class="form-group">
+                                  <label class="form-label"> Job title</label>
+                                  <input type="text" class="form-control" >
+                              </div>
+                              <div class="form-group">
+                                  <label class="form-label">Description</label>
+                                  <input type="text" class="form-control mb-1" >
+                              </div>
+                              <div class="form-group">
+                                  <label class="form-label">Work experience</label>
+                                  <input type="text" class="form-control" >
+                              </div>
+                          </div>
+                      </div>
+                      
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="text-right mt-3">
+          <button type="button" class="btn btn-primary">Save changes</button>&nbsp;
+          <button type="button" class="btn btn-default">Cancel</button>
+      </div>
+  </div>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+
+  </script>
+    
+    <footer class="bg-dark py-5 mt-5 fixed-bottom sticky-bottom ">
+      <div class="container text-light text-center">
         <p clas="display-5 mb-3">WebPage</p>
         <small class="text-white-50">&copy; Copyright by EverWunder</small>
       </div>
