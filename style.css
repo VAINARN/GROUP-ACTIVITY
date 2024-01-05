@@ -108,3 +108,23 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
     padding     : 0.85rem 1.5rem;
     border-color: rgba(24, 28, 33, 0.03) !important;
 }
+
+@media (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+  }
+
+
+  @media (min-width: 601px) and (max-width: 992px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+
+  @media (min-width: 993px) {
+    h1 {
+      font-size: 28px;
+    }
+  }
